@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+
+   <title>Impar?</title>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <link href="css/estilo.css" rel="stylesheet">
+   <script type="text/javascript" src="js/mecanismo.js"></script>
+
+</head>
+<body>
+
+<form name="calcform" method="post" action="" id="formulario">
+      <table id="calc">
+         <tr>
+            <td colspan="3"> <h1 id="paragrafo">O Número é ____</h1></td>
+         </tr>
+         <tr>
+            <td colspan="3"><input type="text" name="visor" id="visor" /></td>
+         </tr>
+         <tr>
+            <td><input type="button" name="num9" class="num" value="9" onclick="addNum(9)" /></td>
+            <td><input type="button" name="num8" class="num" value="8" onclick="addNum(8)" /></td>
+            <td><input type="button" name="num7" class="num" value="7" onclick="addNum(7)" /></td>
+           
+         </tr>
+         <tr>
+            <td><input type="button" name="num6" class="num" value="6" onclick="addNum(6)" /></td>
+            <td><input type="button" name="num5" class="num" value="5" onclick="addNum(5)" /></td>
+            <td><input type="button" name="num4" class="num" value="4" onclick="addNum(4)" /></td>
+           
+         </tr>c
+         <tr>
+            <td><input type="button" name="num3" class="num" value="3" onclick="addNum(3)" /></td>
+            <td><input type="button" name="num2" class="num" value="2" onclick="addNum(2)" /></td>
+            <td><input type="button" name="num1" class="num" value="1" onclick="addNum(1)" /></td>
+           
+         </tr>
+         <tr>
+            <td><input type="button" name="num0" class="num" value="0" onclick="addNum(0)" /></td>
+            <td><input type="button" name="igual" class="op" value="GO!" onclick="resultado()" style="background-color: #228B22" /></td>
+            <td><input type="button" name="limpar" class="op" value="DEL" onclick="Limpar()" style="background-color: #B22222"/></td>
+            
+         </tr>
+      </table> 
+</form>
+
+</body>
+</html>
